@@ -148,10 +148,10 @@
 // motor curve to use
 // the pwm frequency has to be set independently
 // 720motors - use 8khz and curve none.
-#define MOTOR_CURVE_NONE
+//#define MOTOR_CURVE_NONE
 //#define MOTOR_CURVE_6MM_490HZ
 //#define MOTOR_CURVE_85MM_8KHZ
-//#define MOTOR_CURVE_85MM_32KHZ
+#define MOTOR_CURVE_85MM_32KHZ
 
 // limits max rate of change of motors, step size per 1 ms
 //#define DT_LIMITER_ENABLE
@@ -159,7 +159,7 @@
 
 
 // lost quad beeps using motors (30 sec timeout)
-//#define MOTOR_BEEPS
+#define MOTOR_BEEPS
 
 // throttle angle compensation in level mode
 // comment out to disable
@@ -178,11 +178,11 @@
 //#define RX_CG023_PROTOCOL
 //#define RX_H7_PROTOCOL
 //#define RX_BAYANG_PROTOCOL
-#define RX_BAYANG_PROTOCOL_TELEMETRY
+//#define RX_BAYANG_PROTOCOL_TELEMETRY
 //#define RX_BAYANG_PROTOCOL_BLE_BEACON
 //#define RX_CX10BLUE_PROTOCOL
 //#define RX_Q282_PROTOCOL
-//#define RX_SYMA_X5C_PROTOCOL
+#define RX_SYMA_X5C_PROTOCOL
 
 
 // 0 - 3 - power for telemetry
@@ -190,7 +190,7 @@
 
 
 // Flash saving features - some auto enabled at the end if this file
-//#define DISABLE_HEADLESS
+#define DISABLE_HEADLESS
 //#define DISABLE_FLIP_SEQUENCER
 
 // led brightness in-flight ( solid lights only)
