@@ -165,7 +165,7 @@
 #define RADIO_CHECK
 
 // radio type
-#define RADIO_XN297
+//#define RADIO_XN297
 //#define RADIO_XN297L
 
 // PWM PINS DEFINITIONS 
